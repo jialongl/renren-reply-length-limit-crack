@@ -1,0 +1,9 @@
+{
+    "name": "le hack",
+    "version": "0.1",
+    "description": "解除 状态/日志 回复的JS字数限制, 使其最多为500.",
+    "content_scripts": [
+        {"matches": ["http://*.renren.com/*"],
+         "js": ["le-hack.js"]}
+    ]
+}
